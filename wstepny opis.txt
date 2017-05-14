@@ -1,1 +1,14 @@
-wstepny opis
+WSTĘPNY OPIS PROJEKTU:
+Autorzy: Sylwia Szymala, Krzysztof Kopczyk
+Technologia: WPF
+Cel: Stworzenie organizera/ kalendarza, aby wspomóc rozsądne planowanie i zarządzanie swoim czasem.
+Funkcje programu:
+- dodawanie i usuwanie wydarzeń (Sylwia Szymala)
+- przypomnienia w czasie rzeczywistym (Sylwia Szymala)
+- alarmy (np. budzik) (Krzysztof Kopczyk)
+- notatki do dni (Krzysztof Kopczyk)
+- nadanie priorytetów wydarzeniom (Sylwia Szymala)
+- grupowanie w kategorie (np. urodziny, konferencje, wyjazdy) (Sylwia Szymala)
+- zarządzanie kategoriami (np. kolory, czas przypomnienia) (Sylwia Szymala)
+- serializacja (Krzysztof Kopczyk)
+- możliwość założenia hasła na notatki (Krzysztof Kopczyk)
