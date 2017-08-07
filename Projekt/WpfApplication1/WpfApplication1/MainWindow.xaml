@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        xml:lang="en-GB"
+        mc:Ignorable="d"
+        Title="Welcome to Simple Planner" Height="400" Width="525">
+    <Grid Background="Teal">
+        <TextBox HorizontalAlignment="Left" Height="26" Background="Teal" BorderBrush="Teal" Foreground="Black"
+                 TextWrapping="Wrap" FontWeight="Bold" FontFamily="Bradley Hand ITC" FontStyle="Italic" FontSize="15"
+                 Text=". . .  g o o d   o r g a n i z a t i o n   i s   e s s e n t i a l" VerticalAlignment="Top"
+                 Width="349" RenderTransformOrigin="0.577,2.603" Margin="100,34,0,0" TextChanged="TextBoxTextChanged" />
+        <Frame Content=" " HorizontalAlignment="Left" Height="213" Background="DarkSlateGray" Margin="150,88,0,0"
+               VerticalAlignment="Top" Width="217" />
+        <Calendar HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Height="173" Width="497"
+                  MouseDoubleClick="CalendarMouseDoubleClick" />
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" Foreground="Black" FontFamily="Arial"
+                 FontWeight="UltraBold" FontSize="20" FontStyle="Italic" TextWrapping="Wrap"
+                 Text=" MAKE YOUR LIFE SIMPLE " VerticalAlignment="Top" Width="497" />
+        <Button x:Name="categoryButton" Content="Edit Category" Width="90" Height="30" Margin="0,0,10,10"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="CategoryButtonClick" />
+
+    </Grid>
+</Window>
